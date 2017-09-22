@@ -1,5 +1,7 @@
 package com.yingjun.rpc;
 
+import java.io.IOException;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -13,8 +15,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class Server2Test {
 
     @Test
-    public void startServer2(){
-
+    public void startServer2() throws IOException{
+    	System.in.read();
     }
 
 }
